@@ -1,0 +1,27 @@
+// ========================================================
+// This is an example Pattern SCSS File
+// The coresponding HTML file is /patterns/header-bar.html
+// ======================================================== */
+
+.header-bar {
+	position: relative;
+	background: #303030;
+	height: 3.5em;
+	overflow: hidden;
+}
+
+.header-bar h2 {
+	display: block;
+	height: 2em;
+	width: 17em;
+	margin: 0 auto;
+	padding: em(3) em(80) em(3) em(10);
+
+	color: white;
+	font-family: "Helvetica Neue";
+	font-weight: 100;
+
+	@media screen and (min-width: 800px) {
+    margin: 0;
+  }
+}

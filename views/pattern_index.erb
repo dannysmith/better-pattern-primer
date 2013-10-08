@@ -1,0 +1,14 @@
+<% Dir.foreach(Dir.pwd + '/patterns/') do |fname| %>
+<% next if fname == '.' or fname == '..' or fname == '.DS_Store' %>
+	<div class="fw-pattern clearfix" data-fpatternname="<%= fname %>">
+		<div class="fw-display">
+			<div class="main-container">
+				<%= File.read(File.join('patterns/', fname)) %>
+			</div>
+		</div>
+		<div class="fw-source">
+			<a href="/<%= fname %>" class="fw-filename"><%= fname %></a>
+			<textarea rows="13"><%= File.read(File.join('patterns/', fname)) %></textarea>
+		</div>
+	</div>
+<% end %>

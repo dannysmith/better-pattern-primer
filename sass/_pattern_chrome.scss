@@ -1,0 +1,50 @@
+// ===================================================
+// Styling specific to the Pattern Library Application
+// =================================================== */
+
+$fwcolor: #1E1E1E;
+$fw-sourcecolor: #303030;
+
+.fw-pattern {
+	border-bottom: 10px solid $fwcolor;
+}
+
+
+.fw-display {
+	float: left;
+	width: 65%;
+	padding: 10px;
+}
+
+.fw-source {
+	width: 35%;
+	float: right;
+	border-left: 1px solid $fwcolor;
+	background: $fw-sourcecolor;
+}
+
+
+.fw-filename {
+	line-height: 1.2;
+	display: block;
+	font-family: monospace;
+	text-decoration: none;
+	color: #6A9CBE;
+	font-size: 10px;
+	padding: 5px 10px;
+}
+
+.fw-source textarea {
+	width: 100%;
+	background: $fw-sourcecolor;
+	border: none;
+	font-family: monospace;
+	padding: 5px 10px;
+	font-size: 1.2rem;
+	tab-size: 2;
+	color: #E8BF6A;
+}
+
+.fw-source textarea:focus {
+	outline: none;
+}
