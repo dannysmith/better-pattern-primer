@@ -55,3 +55,6 @@ The rest of the structure, including the /sass directory are broadly similar to 
 
 - Thanks to @adictio and @sricho for a little ruby implementation.
 - This one's by [Danny Smith](https://github.com/dannysmith)
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dannysmith/better-pattern-primer/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
